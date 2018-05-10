@@ -1,6 +1,15 @@
 spring:
   application:
     name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/361754100/configserver.git
+          search-paths: src/main/resources/configs
+          username: ******
+          password: ******
 
 server:
   port: 7301
+

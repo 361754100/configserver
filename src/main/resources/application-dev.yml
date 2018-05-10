@@ -7,8 +7,8 @@ spring:
         git:
           uri: https://github.com/361754100/configserver.git
           search-paths: src/main/resources/configs
-          username: 361754100@qq.com
-          password: 13751823091.jian
+          username: ******
+          password: ******
 
 server:
   port: 7001
